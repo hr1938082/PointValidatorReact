@@ -1,6 +1,6 @@
 {
   "name": "point-validator-react",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta.1",
   "author": "Hassan Raza",
   "description": "React Hook for validating data",
   "license": "MIT",

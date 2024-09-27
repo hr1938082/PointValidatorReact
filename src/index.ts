@@ -7,7 +7,9 @@ export type AnyError<T> = Error<T> & {
     [k: string]: any
 }
 
-const useValidator = <T extends Record<string, any>>(option: Options<T>) => {
+export type ValidatorOptions<T extends Record<string, any>> = Options<T>
+
+const useValidator = <T extends Record<string, any>>(option: ValidatorOptions<T>) => {
     const [Errors, setErrors] = useState<AnyError<T>>({})
 
     const handleErrors = (key: StateKey<T> | T & Record<string, any>, value?: string) => {
