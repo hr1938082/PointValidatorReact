@@ -1,0 +1,25 @@
+{
+    "name": "point-validator-react",
+    "version": "1.0.0-beta",
+    "author": "Hassan Raza",
+    "description": "React Hook for validating data",
+    "license": "MIT",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "type": "module",
+    "keywords": [
+        "point-validator-react"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hr1938082/PointValidatorReact.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hr1938082/PointValidatorReact/issues"
+    },
+    "peerDependencies": {
+        "point-validator": "^1.0.0-beta",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    }
+}
