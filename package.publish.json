@@ -1,6 +1,6 @@
 {
     "name": "point-validator-react",
-    "version": "1.0.0-beta.6",
+    "version": "1.0.0-beta.7",
     "author": "Hassan Raza",
     "description": "React Hook for validating data",
     "license": "MIT",
@@ -19,7 +19,6 @@
     },
     "peerDependencies": {
         "point-validator": "^1.0.0-beta.5",
-        "react": "^18.0.0",
-        "react-dom": "^18.0.0"
+        "react": "^19.0.0"
     }
 }
